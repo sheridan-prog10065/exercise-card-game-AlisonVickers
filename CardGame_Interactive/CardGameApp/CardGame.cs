@@ -13,6 +13,9 @@ public class CardGame
 		_score = new GameScore();
 		_playerCard = null;
 		_houseCard = null;
+		
+		// shuffle the cards
+		_cardDeck.ShuffleCards();
 	}
 	
 	public GameScore Score
